@@ -1,13 +1,22 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/dist/styles.css' %}">
+    <title>Document_Report</title>
 </head>
-<body>
 
-    <h1>Hello??</h1>
-    
+<body class="bg-gray-100 text-gray-900 flex flex-col items-center justify-center h-screen">
+    <div class="text-center">
+        <h1 class="text-3xl font-bold text-blue-500">
+            สวัสดี Tailwind กับ Django 🎉
+        </h1>
+        <p class="text-lg text-red-500">ข้อความสีแดงจาก Tailwind</p>
+    </div>
 </body>
+
+
 </html>
